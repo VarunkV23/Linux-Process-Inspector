@@ -1,0 +1,9 @@
+[package]
+name = "procsnoop"
+version = "0.3.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

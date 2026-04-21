@@ -50,7 +50,6 @@ fn pid_arg(args: &[String]) -> Option<u32> {
 }
 
 fn main() {
-    // Fix 1: initialise the tty flag before any output so all Ansi statics
     // see the correct value on their first (and only) use.
     IS_TTY.get_or_init(|| unsafe { libc::isatty(1) != 0 });
 

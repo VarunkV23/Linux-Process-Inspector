@@ -2,7 +2,6 @@
 
 A Linux process inspector written in Rust. Reads directly from `/proc` and uses `ptrace` to give you a detailed, colour-coded view of any running process — its memory, file descriptors, network sockets, capabilities, namespaces, syscalls, and more.
 
-Also ships with `infra_setup.sh`, a one-shot installer for a self-hosted stack: **Pi-hole + WireGuard + Gitea**.
 
 ---
 
